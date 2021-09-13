@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/my_gradient_drawable3"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:padding="15dp">
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/img1"-->
+        <!--            android:layout_width="30dp"-->
+        <!--            android:layout_height="25dp"-->
+        <!--            android:layout_below="@+id/text3"-->
+        <!--            android:layout_marginTop="10dp"-->
+        <!--            android:layout_toRightOf="@+id/avrg_data"-->
+        <!--            android:scaleType="fitXY"-->
+        <!--            android:src="@drawable/ic_privacy" />-->
+
+        <TextView
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/recmnd"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/recmnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/baloo"
+            android:text="Call Distribution (last 24h)"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <com.github.mikephil.charting.charts.CombinedChart
+            android:id="@+id/chart1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/recmnd" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

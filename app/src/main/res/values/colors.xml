@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#9096A3</color>
+
+    <color name="CATEGORY_">#8ecae6</color>
+    <color name="CATEGORY_0">#219ebc</color>
+    <color name="CATEGORY_1">#023047</color>
+    <color name="CATEGORY_2">#ffb703</color>
+    <color name="CATEGORY_3">#fb8500</color>
+     <color name="CATEGORY_4">#eae4e9</color>
+    <color name="CATEGORY_5">#fff1e6</color>
+    <color name="CATEGORY_6">#fad2e1</color>
+    <color name="CATEGORY_7">#e2ece9</color>
+
+
+    public static final int CATEGORY_IMAGE = 3;
+
+    /**
+    * Category for apps which are primarily social apps, such as messaging,
+    * communication, email, or social network apps.
+    *
+    * @see #category
+    */
+    public static final int CATEGORY_SOCIAL = 4;
+
+    /**
+    * Category for apps which are primarily news apps, such as newspapers,
+    * magazines, or sports apps.
+    *
+    * @see #category
+    */
+    public static final int CATEGORY_NEWS = 5;
+
+    /**
+    * Category for apps which are primarily maps apps, such as navigation apps.
+    *
+    * @see #category
+    */
+    public static final int CATEGORY_MAPS = 6;
+
+    /**
+    * Category for apps which are primarily productivity apps, such as cloud
+    * storage or workplace apps.
+    *
+    * @see #category
+    */
+    public static final int CATEGORY_PRODUCTIVITY = 7;
+
+
+
+
+</resources>

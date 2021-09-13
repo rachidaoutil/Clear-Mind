@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".Activity.MainActivity"
+    tools:openDrawer="start">
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/main_menu" />
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:scrollbars="none"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--Top Headerbar-->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+        <!--Profile Tab-->
+
+        <!--Big Text-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quick Tips"
+                android:textColor="#424242"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_gradient_drawable3"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:padding="15dp">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/baloo"
+                    android:gravity="center"
+                    android:text="Title"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/line"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/title"
+                    android:background="@android:color/darker_gray" />
+
+                <!--        <ImageView-->
+                <!--            android:id="@+id/img1"-->
+                <!--            android:layout_width="30dp"-->
+                <!--            android:layout_height="25dp"-->
+                <!--            android:layout_below="@+id/text3"-->
+                <!--            android:layout_marginTop="10dp"-->
+                <!--            android:layout_toRightOf="@+id/avrg_data"-->
+                <!--            android:scaleType="fitXY"-->
+                <!--            android:src="@drawable/ic_privacy" />-->
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/line"
+                    android:layout_alignParentTop="false"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/baloo"
+                    android:padding="3dp"
+                    android:text="Apps Screen Time"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--Options-->
+
+        <!--Slide Options-->
+
+
+        <!--List View (Adding just one item)-->
+
+    </LinearLayout>
+
+
+</ScrollView>
+</androidx.drawerlayout.widget.DrawerLayout>

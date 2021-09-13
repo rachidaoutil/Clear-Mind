@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "505666602432",
+    "project_id": "stageapp-c708a",
+    "storage_bucket": "stageapp-c708a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505666602432:android:1f89baf3978c4775803425",
+        "android_client_info": {
+          "package_name": "com.stageapp.riskmanage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505666602432-s1p9qs6nir5vq0fd5oh5taj7shq6sl1m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stageapp.riskmanage",
+            "certificate_hash": "8c89fe6327a894f1726ae20df64ef27a0ecbc9d1"
+          }
+        },
+        {
+          "client_id": "505666602432-jgoi1a958e773j3m98q0gg1oh99gq2ns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdRwPOnEOtvanBHqQlwRAYr2gxukT9d-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505666602432-jgoi1a958e773j3m98q0gg1oh99gq2ns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

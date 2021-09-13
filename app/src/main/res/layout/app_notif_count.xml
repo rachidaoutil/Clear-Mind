@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#4D53E0"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/baloo"
+                android:text="Notification"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/line3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/title2"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/avrg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title2"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/baloo"
+                android:text="Today,"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title2"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/avrg2"
+                android:text="date"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/max2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title2"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/text4"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/min2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title2"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/max2"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title2"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/min2"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title2"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/text8"
+                android:fontFamily="@font/baloo"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/avrg_data2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/avrg2"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="10dp"
+                android:text="21"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/max_data2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/max2"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/min_data2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/max2"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tot_data2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/max2"
+                android:layout_marginLeft="178dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <!--        <ImageView-->
+            <!--            android:id="@+id/img1"-->
+            <!--            android:layout_width="30dp"-->
+            <!--            android:layout_height="25dp"-->
+            <!--            android:layout_below="@+id/text3"-->
+            <!--            android:layout_marginTop="10dp"-->
+            <!--            android:layout_toRightOf="@+id/avrg_data"-->
+            <!--            android:scaleType="fitXY"-->
+            <!--            android:src="@drawable/ic_privacy" />-->
+
+            <TextView
+                android:id="@+id/line4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/tot_data2"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/recmnd2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line4"
+                android:layout_alignParentTop="false"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/baloo"
+                android:text="Title"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+
+            <ListView
+                android:id="@+id/apps_list2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/recmnd2"
+                android:layout_marginTop="4dp"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.cardview.widget.CardView>
